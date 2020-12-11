@@ -1,8 +1,10 @@
+package Locadora;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class RepositorioPessoas {
-	private Map<int, Pessoa> pessoas;
+	private Map<Integer, Pessoa> pessoas;
 	
 	public RepositorioPessoas() {
 		pessoas = new HashMap<>();
@@ -20,11 +22,11 @@ public class RepositorioPessoas {
 		return pessoas.get(matricula);
 	}
 	
-	public Map<String, Pessoa> getPessoas() {
+	public Map<Integer, Pessoa> getPessoas() {
 		return pessoas;
 	}
 
-	public void setPessoas(Map<String, Pessoa> pessoas) {
+	public void setPessoas(Map<Integer, Pessoa> pessoas) {
 		this.pessoas = pessoas;
 	}
 }

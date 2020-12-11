@@ -1,9 +1,8 @@
+package Locadora;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class RepositorioProdutos {
-
 	private Map<String, Produto> produtos;
 	
 	public RepositorioProdutos() {
