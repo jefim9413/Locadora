@@ -37,7 +37,15 @@ public class Cliente extends Pessoa {
 			this.sexo = sexo;
 		}
 
+	@Override
+	public String toString() {
+		return "Cliente{" +
+				"endereco='" + endereco + '\'' +
+				", idade=" + idade +
+				", sexo=" + sexo +
+				'}';
 	}
+}
 
 
 

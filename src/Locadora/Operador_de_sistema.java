@@ -28,6 +28,7 @@ public class Operador_de_sistema extends Funcionario{
 				for (Pessoa j: pessoas ) {
 					if(j.getMatricula() == matricula){
 						Locacao locacao = new Locacao(codigo,matricula);
+						locacaes.add(locacao);
 						lista.adicionar(locacao);
 						cont = 1;
 						break;
@@ -44,7 +45,21 @@ public class Operador_de_sistema extends Funcionario{
 	}
 	
 	public void ExcluirLocacao(String codigo) {
-		
+		int cont = 0;
+		for (Produto i : produtos) {
+			if(i.getCodigo().equals(codigo)){
+				for (Locacao j : locacaes ) {
+					if(j.getCodigo().equals(codigo)){
+						lista.remover(codigo,j.getMatricula());
+						cont = 1;
+					}
+				}
+				cont = 1;
+			}
+		}
+		if(cont == 0){
+			System.out.println("Locação não encontrada!!");
+		}
 	}
 	
 	public void BaixaDeLocacao(String codigo) {
@@ -52,10 +67,28 @@ public class Operador_de_sistema extends Funcionario{
 	}
 	
 	public void BuscarProduto(String codigo) {
-		
+		int cont = 0;
+		for (Locacao i: locacaes) {
+			if(i.getCodigo().equals(codigo)){
+				lista.buscar(codigo,i.getMatricula());
+				cont = 1;
+			}
+		}
+		if(cont == 0){
+			System.out.println("Produto não encontrado!!!");
+		}
 	}
 	
 	public void BscarCliente(int matricula) {
-		
+		int cont = 0;
+		for (Pessoa i: pessoas) {
+			if(i.getMatricula() == matricula){
+				i.toString();
+				cont = 1;
+			}
+		}
+		if(cont == 0){
+			System.out.println("Cliente não encontrado !!");
+		}
 	}
 }
