@@ -1,7 +1,5 @@
 package Produto;
 
-import Produto.Musica;
-
 public class Lp extends Musica {
     private boolean raro;
     

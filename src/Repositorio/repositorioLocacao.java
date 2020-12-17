@@ -1,6 +1,7 @@
-package Locadora;
+package Repositorio;
+import Locadora.*;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class repositorioLocacao {
     private ArrayList<Locacao> locacoes;

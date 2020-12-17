@@ -2,28 +2,148 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e5f44e2-fbf9-49db-9e59-456d7570462f" name="Default Changelist" comment="ok">
-      <change afterPath="$PROJECT_DIR$/src/Locadora/Locacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Locadora/repositorioLocacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repositorio/RepositorioPessoas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locadora/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locadora/RepositorioLocacoes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locadora/RepositorioPessoas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/RepositorioPessoas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locadora/RepositorioProdutos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/RepositorioProdutos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locadora/dupla.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Locadora.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Locadora.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Locadora/RepositorioLocacoes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Locadora/RepositorioPessoas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Locadora/RepositorioPessoas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Locadora/RepositorioProdutos.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Locadora/RepositorioProdutos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Bluray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produto/Bluray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Cd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produto/Cd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Dvd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produto/Dvd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produto/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Locacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Locacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Lp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produto/Lp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produto/Musica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produto/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/RepositorioPessoas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/RepositorioProdutos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositorio/RepositorioProdutos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Vhs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produto/Vhs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/repositorioLocacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositorio/repositorioLocacao.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/bin/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Principal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Locadora/Pessoa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Locadora/Gerente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Locadora/Locacao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Locadora/repositorioLocacao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Locadora/RepositorioPessoas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Locadora/RepositorioProdutos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,10 +162,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Locadora/Musica.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Locadora/RepositorioProdutos.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Locadora/repositorioLocacao.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Locadora/RepositorioPessoas.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Locadora/Cliente.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Repositorio/RepositorioPessoas.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Repositorio/RepositorioProdutos.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Repositorio/repositorioLocacao.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Principal.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Produto/Musica.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,30 +176,35 @@
         <option value="$PROJECT_DIR$/src/Locadora/Bluray.java" />
         <option value="$PROJECT_DIR$/src/Locadora/Dvd.java" />
         <option value="$PROJECT_DIR$/src/Locadora/Vhs.java" />
-        <option value="$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" />
         <option value="$PROJECT_DIR$/src/Locadora/dupla.java" />
         <option value="$PROJECT_DIR$/src/Locadora/Pessoa.java" />
         <option value="$PROJECT_DIR$/src/Locadora/Filme.java" />
-        <option value="$PROJECT_DIR$/src/Locadora/repositorioLocacao.java" />
+        <option value="$PROJECT_DIR$/src/Locadora/Produto.java" />
         <option value="$PROJECT_DIR$/src/Locadora/Locacao.java" />
+        <option value="$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" />
+        <option value="$PROJECT_DIR$/src/Locadora/repositorioLocacao.java" />
         <option value="$PROJECT_DIR$/src/Locadora/RepositorioPessoas.java" />
         <option value="$PROJECT_DIR$/src/Locadora/RepositorioProdutos.java" />
-        <option value="$PROJECT_DIR$/src/Locadora/Produto.java" />
+        <option value="$PROJECT_DIR$/src/Principal.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="668" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1lfUvkNrgdGqz4VBLEiE6kBbp0e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,15 +231,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -122,20 +255,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -148,36 +270,41 @@
       <updated>1607624626767</updated>
       <workItem from="1607624637889" duration="4805000" />
       <workItem from="1607649214188" duration="42000" />
-      <workItem from="1607702755062" duration="2801000" />
+      <workItem from="1607702755062" duration="12244000" />
+      <workItem from="1607970112093" duration="411000" />
+      <workItem from="1607983274196" duration="1533000" />
+      <workItem from="1607987907590" duration="2918000" />
+      <workItem from="1608238936216" duration="1970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7648000" />
+    <option name="totallyTimeSpent" value="19035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="708" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49560633" visible="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49560633" visible="true" weight="0.26136363" />
       <window_info id="Structure" order="1" sideWeight="0.5043937" side_tool="true" weight="0.25378788" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32864675" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32864675" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32864675" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32864675" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32864675" />
+      <window_info anchor="bottom" id="Database" order="13" weight="0.32864675" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -186,15 +313,18 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok" />
     <option name="LAST_COMMIT_MESSAGE" value="ok" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Locadora/Musica.java">
@@ -215,13 +345,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Locadora/dupla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locadora/dupla.java" />
     <entry file="file://$PROJECT_DIR$/src/Locadora/Bluray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -254,23 +378,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Locadora/RepositorioLocacoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locadora/RepositorioLocacoes.java" />
     <entry file="jar:///usr/lib/jvm/jdk-15.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -303,23 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Locadora/repositorioLocacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="17" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Locadora/Vhs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -331,77 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Locadora/Locacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Locadora/RepositorioPessoas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Locadora/RepositorioProdutos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Locadora/Funcionario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -409,10 +429,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locadora/Gerente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locadora/Locacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locadora/RepositorioProdutos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locadora/RepositorioPessoas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Locadora/repositorioLocacao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Locadora/Pessoa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

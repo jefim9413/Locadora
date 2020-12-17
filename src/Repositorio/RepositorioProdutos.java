@@ -1,4 +1,6 @@
-package Locadora;
+package Repositorio;
+import Produto.*;
+
 import java.util.HashMap;
 import java.util.Map;
 

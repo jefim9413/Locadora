@@ -1,4 +1,7 @@
-package Repositorio;
+package Locadora;
+
+import Produto.*;
+import Repositorio.*;
 
 import java.util.ArrayList;
 
@@ -6,7 +9,7 @@ public class Operador_de_sistema extends Funcionario{
 	private ArrayList <Pessoa> pessoas = new ArrayList<>();
 	private ArrayList <Produto> produtos = new ArrayList<>();
 	private ArrayList <Locacao> locacaes = new ArrayList<>();
-	private  repositorioLocacao  lista;
+	private repositorioLocacao lista;
 
 
 	public Operador_de_sistema(String nome, int matricula, String login, String senha, ArrayList<Pessoa> pessoas , ArrayList<Produto> produtos ,ArrayList<Locacao> locacao ) {

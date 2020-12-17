@@ -1,4 +1,4 @@
-package Repositorio;
+package Locadora;
 import java.util.Date;
 public class Locacao {
     private String codigo;

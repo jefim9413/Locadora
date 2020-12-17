@@ -1,4 +1,4 @@
-package Repositorio;
+package Produto;
 public class Vhs extends Filme {
     private boolean cores;
     

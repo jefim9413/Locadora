@@ -1,4 +1,6 @@
-package Repositorio;
+package Produto;
+
+
 public abstract class Musica extends Produto {
     
 	protected String autor;

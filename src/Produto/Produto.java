@@ -1,4 +1,4 @@
-package Repositorio;
+package Produto;
 public abstract class Produto {
     protected String codigo;
     protected String titulo;

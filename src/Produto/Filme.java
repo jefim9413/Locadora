@@ -1,4 +1,5 @@
-package Repositorio;
+package Produto;
+
 public abstract class Filme extends Produto {
     protected int anoLancamento;
     protected int duracao;

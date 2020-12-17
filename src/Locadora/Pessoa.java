@@ -1,8 +1,8 @@
-package Repositorio;
+package Locadora;
 
 public abstract class Pessoa {
 	protected String nome;
-	protected int matricula;
+	public int matricula;
 
 	public Pessoa(String nome, int matricula) {
 		this.nome = nome;

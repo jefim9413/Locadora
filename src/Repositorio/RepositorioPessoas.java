@@ -1,6 +1,7 @@
-package Locadora;
+package Repositorio;
 
-import org.jetbrains.annotations.Contract;
+import Locadora.*;
+import Produto.*;
 
 import java.util.ArrayList;
 

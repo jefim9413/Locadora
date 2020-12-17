@@ -1,4 +1,4 @@
-package Repositorio;
+package Locadora;
 
 public class Gerente extends Funcionario{
 	
