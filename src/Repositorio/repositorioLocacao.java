@@ -1,10 +1,15 @@
 package Locadora;
+import java.util.ArrayList;
 import java.util.List;
 
 public class repositorioLocacao {
-    private List<Locacao> locacoes;
+    private ArrayList<Locacao> locacoes;
 
-    public repositorioLocacao(List<Locacao> locacoes) {
+    public repositorioLocacao(){
+
+    }
+
+    public repositorioLocacao(ArrayList<Locacao> locacoes) {
         this.locacoes = locacoes;
     }
 
@@ -30,11 +35,11 @@ public class repositorioLocacao {
         return null;
     }
 
-    public List<Locacao> getLocacoes() {
-        return locacoes;
+    public ArrayList<Locacao> getLocacoes() {
+        return this.locacoes;
     }
 
-    public void setLocacoes(List<Locacao> locacoes) {
+    public void setLocacoes(ArrayList<Locacao> locacoes) {
         this.locacoes = locacoes;
     }
 

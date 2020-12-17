@@ -1,4 +1,4 @@
-package Locadora;
+package Repositorio;
 
 public abstract class Pessoa {
 	protected String nome;

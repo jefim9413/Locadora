@@ -1,6 +1,9 @@
 package Locadora;
 
-public class Cliente extends Pessoa{
+import Locadora.Pessoa;
+import Repositorio.Produto;
+
+public class Cliente extends Pessoa {
 
 		
 		private String endereco;

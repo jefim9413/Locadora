@@ -1,10 +1,17 @@
-package Locadora;
+package Repositorio;
 import java.util.Date;
 public class Locacao {
     private String codigo;
     private int matricula;
     private Date saida;
     private Date entrega;
+
+    public Locacao(String codigo, int matricula) {
+        this.codigo = codigo;
+        this.matricula = matricula;
+        this.saida = new Date(System.currentTimeMillis());
+        this.entrega.setDate(saida.getDate()+ 7);
+    }
 
     public double calcularMulta() {
         return 0;
