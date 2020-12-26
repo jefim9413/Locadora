@@ -7,7 +7,7 @@ public class Cliente extends Pessoa {
 		
 		public Cliente(String endereco, int idade, char sexo, String nome, int matricula) {
 			super(nome, matricula);
-			this.setEndereco(endereco);
+			this.endereco = endereco;
 			this.idade = idade;
 			this.sexo = sexo;
 			

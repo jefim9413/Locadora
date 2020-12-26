@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e5f44e2-fbf9-49db-9e59-456d7570462f" name="Default Changelist" comment="ok">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Locadora/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Gerente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,6 +218,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -226,13 +229,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -252,7 +256,11 @@
       <workItem from="1607983274196" duration="1533000" />
       <workItem from="1607987907590" duration="2918000" />
       <workItem from="1608238936216" duration="1970000" />
-      <workItem from="1608243594494" duration="3543000" />
+      <workItem from="1608243594494" duration="4515000" />
+      <workItem from="1608942699982" duration="285000" />
+      <workItem from="1608943266230" duration="81000" />
+      <workItem from="1608943643679" duration="109000" />
+      <workItem from="1608943968314" duration="1136000" />
     </task>
     <servers />
   </component>
