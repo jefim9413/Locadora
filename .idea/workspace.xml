@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e5f44e2-fbf9-49db-9e59-456d7570462f" name="Default Changelist" comment="ok">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locadora/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Locadora/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +143,7 @@
     <setting file="file://$PROJECT_DIR$/src/Locadora/Cliente.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Repositorio/RepositorioPessoas.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Locadora/Gerente.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Repositorio/RepositorioProdutos.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Repositorio/repositorioLocacao.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Principal.java" root0="SKIP_INSPECTION" />
@@ -238,6 +238,31 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RunManager">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <module name="Locadora" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -261,6 +286,7 @@
       <workItem from="1608943266230" duration="81000" />
       <workItem from="1608943643679" duration="109000" />
       <workItem from="1608943968314" duration="1136000" />
+      <workItem from="1608945684822" duration="5372000" />
     </task>
     <servers />
   </component>

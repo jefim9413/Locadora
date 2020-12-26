@@ -2,6 +2,7 @@ import Produto.*;
 import Locadora.*;
 import Repositorio.*;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Principal {
@@ -9,12 +10,21 @@ public class Principal {
         Scanner input = new Scanner(System.in);
         int opcao;
 
+
+        ArrayList<Pessoa> pessoas = new ArrayList<>();
+        ArrayList<Produto>produtos = new ArrayList<>();
+        ArrayList<Locacao> locacaos = new ArrayList<>();
+        ArrayList<Gerente> geretes = new ArrayList<>();
+        ArrayList<Operador_de_sistema> operadores = new ArrayList<>();
+
+
+
         repositorioLocacao repLocacoes = new repositorioLocacao();
         RepositorioProdutos repProdutos = new RepositorioProdutos();
         RepositorioPessoas repPessoas = new RepositorioPessoas();
 
-        Gerente gerente = new Gerente("Jonas", 123, "aps", "123");
-        repPessoas.adicionar(gerente);
+        //Gerente gerente = new Gerente("Jonas", 123, "aps", "123");
+        //repPessoas.adicionar(gerente);
 
         String login;
         String senha;
