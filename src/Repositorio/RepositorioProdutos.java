@@ -1,18 +1,19 @@
 package Repositorio;
 import Produto.*;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
 public class RepositorioProdutos {
-	private Map<String, Produto> produtos;
+	private ArrayList<Produto> produtos;
 
 	public RepositorioProdutos() {
-		produtos = new HashMap<>();
+		produtos = new ArrayList<>();
 	}
 
 	public void adicionar(Produto produto) {
-		produtos.put(produto.getCodigo(), produto);
+		produtos.add(produto);
 	}
 
 	public void remover(String codigo) {
@@ -20,14 +21,19 @@ public class RepositorioProdutos {
 	}
 
 	public Produto buscar(String codigo) {
-		return produtos.get(codigo);
+		for (Produto i : produtos) {
+			if(i.getCodigo().equals(codigo)){
+				return i;
+			}
+		}
+		return null;
 	}
 
-	public Map<String, Produto> getProdutos() {
+	public ArrayList<Produto> getProdutos() {
 		return produtos;
 	}
 
-	public void setProdutos(Map<String, Produto> produtos) {
+	public void setProdutos(ArrayList<Produto> produtos) {
 		this.produtos = produtos;
 	}
 }

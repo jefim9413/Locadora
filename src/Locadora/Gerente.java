@@ -2,42 +2,36 @@ package Locadora;
 import java.util.Scanner;
 import java.util.ArrayList;
 import Produto.*;
+import Repositorio.*;
 
 
 public class Gerente extends Funcionario{
+	RepositorioProdutos produtos;
+	RepositorioPessoas pessoas;
 
-	private ArrayList<Cliente> clientes = new ArrayList<>();
-	private ArrayList<Produto> produtos = new ArrayList<>();
-	private ArrayList<Locacao> locacaos = new ArrayList<>();
-	private ArrayList<Gerente> geretes = new ArrayList<>();
-	private ArrayList<Operador_de_sistema> operadores = new ArrayList<>();
-
-	public Gerente(String nome, int matricula, String login, String senha, ArrayList<Cliente> clientes, ArrayList<Produto> produtos, ArrayList<Locacao> locacao, ArrayList<Gerente> geretes, ArrayList<Operador_de_sistema> operadores) {
+	public Gerente(String nome, int matricula, String login, String senha, RepositorioProdutos repProdutos, RepositorioPessoas repPessoas ) {
 		super(nome, matricula, login, senha);
-		this.produtos = produtos;
-		this.clientes = clientes;
-		this.locacaos = locacao;
-		this.geretes = geretes;
-		this.operadores = operadores;
+		produtos = repProdutos;
+		pessoas = repPessoas;
 	}
 
-	public void AddCliente(String nome, int idade, char sexo, String endereco, int matricula) {
+	public void AddCliente(String nome, int idade, String sexo, String endereco, int matricula) {
 		Cliente cliente = new Cliente(endereco, idade,sexo,nome,matricula);
-		clientes.add(cliente);
+		pessoas.adicionar(cliente);
 	}
 
 	public void AddProduto(Produto produto) {
-		produtos.add(produto);
+		produtos.adicionar(produto);
 	}
 
 	public void AddOperador(String nome, int matricula, String login, String senha) {
-		Operador_de_sistema operador = new Operador_de_sistema(nome,matricula,login,senha,clientes,produtos,locacaos);
-		operadores.add(operador);
+		Operador_de_sistema operador = new Operador_de_sistema(nome,matricula,login,senha);
+		pessoas.adicionar(operador);
 	}
 
 	public void ListarCliente() {
 		int cont = 0;
-		for (Cliente i : clientes) {
+		for (Pessoa i : pessoas.getPessoas()) {
 			if(i != null){
 				i.toString();
 				cont = 1;
@@ -50,7 +44,7 @@ public class Gerente extends Funcionario{
 
 	public void ListarProduto() {
 		int cont = 0;
-		for (Produto i :produtos) {
+		for (Produto i :produtos.getProdutos()) {
 			if(i != null){
 				i.toString();
 				cont = 1;
@@ -63,8 +57,8 @@ public class Gerente extends Funcionario{
 
 	public void ListarOperador() {
 		int cont = 0;
-		for (Operador_de_sistema i :operadores) {
-			if(i != null){
+		for (Pessoa i :pessoas.getPessoas()) {
+			if(i instanceof Operador_de_sistema){
 				i.toString();
 				cont = 1;
 			}
@@ -76,7 +70,7 @@ public class Gerente extends Funcionario{
 
 	public void BuscarProduto(String codigo) {
 		int aux = 0;
-		for(Produto i: produtos) {
+		for(Produto i: produtos.getProdutos()) {
 			if(i.getCodigo().equals(codigo)) {
 				System.out.println("Dados do produto"+i);
 				aux = 1;
@@ -89,11 +83,13 @@ public class Gerente extends Funcionario{
 
 	public void BuscarCliente(int matricula) {
 		int aux = 0;
-		for(Cliente i: clientes) {
-			if(i.getMatricula()== matricula) {
-				System.out.println("Dados do cliente:"+i);
-				aux = 1;
-				break;
+		for(Pessoa i: pessoas.getPessoas()) {
+			if (i instanceof Cliente){
+				if(i.getMatricula()== matricula) {
+					System.out.println("Dados do cliente:"+i);
+					aux = 1;
+					break;
+				}
 			}
 		}
 		if(aux == 0) {
@@ -104,11 +100,14 @@ public class Gerente extends Funcionario{
 
 	public void BuscarOperador(int matricula) {
 		int aux = 0;
-		for(Cliente i: clientes) {
-			if(i.getMatricula()==matricula) {
-				System.out.println("Dados do operador de sistema:"+i);
-				aux= 1;
-				break;
+		for(Pessoa i: pessoas.getPessoas()) {
+
+			if (i instanceof Operador_de_sistema){
+				if(i.getMatricula()==matricula) {
+					System.out.println("Dados do operador de sistema:"+i);
+					aux= 1;
+					break;
+				}
 			}
 		}
 		if(aux == 0) {
@@ -116,11 +115,17 @@ public class Gerente extends Funcionario{
 		}
 	}
 
-	public ArrayList<Cliente> getCliete() {
-		return clientes;
+	public ArrayList<Pessoa> getCliete() {
+		ArrayList<Pessoa> ex = new ArrayList<>();
+		for (Pessoa i : pessoas.getPessoas()){
+			if(i instanceof Cliente){
+				ex.add(i);
+			}
+		}
+		return ex;
 	}
 
-	public void setCliente(ArrayList<Cliente> cliente) {
-		this.clientes = cliente;
+	public void setCliente(Pessoa cliente) {
+		pessoas.adicionar(cliente);
 	}
 }
