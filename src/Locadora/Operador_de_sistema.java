@@ -6,30 +6,29 @@ import Repositorio.*;
 import java.util.ArrayList;
 
 public class Operador_de_sistema extends Funcionario{
-	private ArrayList <Cliente> clientes = new ArrayList<>();
-	private ArrayList <Produto> produtos = new ArrayList<>();
-	private ArrayList <Locacao> locacaes = new ArrayList<>();
-	private repositorioLocacao lista;
+	private RepositorioProdutos produtos;
+	private RepositorioPessoas pessoas;
+	private repositorioLocacao locacoes;
 
 
-	public Operador_de_sistema(String nome, int matricula, String login, String senha, ArrayList<Cliente> clientes , ArrayList<Produto> produtos ,ArrayList<Locacao> locacao ) {
+	public Operador_de_sistema(String nome, int matricula, String login, String senha) {
 		super(nome, matricula, login, senha);
-		this.clientes = clientes;
+	}
+	public void iniciar(RepositorioPessoas pessoas , repositorioLocacao locacao , RepositorioProdutos produtos){
 		this.produtos = produtos;
-		this.locacaes = locacao;
-		lista = new repositorioLocacao(locacaes);
+		this.pessoas = pessoas;
+		this.locacoes = locacao;
 	}
 	
 	public void AlugarProduto(String codigo, int matricula) {
 		int cont =0;
-		for (Produto i: produtos) {
+		for (Produto i: produtos.getProdutos()) {
 			if(i.getCodigo().equals(codigo)){
 				cont = 1;
-				for (Cliente j: clientes ) {
+				for (Pessoa j: pessoas.getPessoas()) {
 					if(j.getMatricula() == matricula){
 						Locacao locacao = new Locacao(codigo,matricula);
-						locacaes.add(locacao);
-						lista.adicionar(locacao);
+						locacoes.adicionar(locacao);
 						cont = 1;
 						break;
 					}
@@ -46,11 +45,11 @@ public class Operador_de_sistema extends Funcionario{
 	
 	public void ExcluirLocacao(String codigo) {
 		int cont = 0;
-		for (Produto i : produtos) {
+		for (Produto i : produtos.getProdutos()) {
 			if(i.getCodigo().equals(codigo)){
-				for (Locacao j : locacaes ) {
+				for (Locacao j : locacoes.getLocacoes() ) {
 					if(j.getCodigo().equals(codigo)){
-						lista.remover(codigo,j.getMatricula());
+						locacoes.remover(codigo,j.getMatricula());
 						cont = 1;
 					}
 				}
@@ -68,9 +67,9 @@ public class Operador_de_sistema extends Funcionario{
 	
 	public void BuscarProduto(String codigo) {
 		int cont = 0;
-		for (Locacao i: locacaes) {
+		for (Locacao i: locacoes.getLocacoes()) {
 			if(i.getCodigo().equals(codigo)){
-				lista.buscar(codigo,i.getMatricula());
+				locacoes.buscar(codigo,i.getMatricula());
 				cont = 1;
 			}
 		}
@@ -81,7 +80,7 @@ public class Operador_de_sistema extends Funcionario{
 	
 	public void BscarCliente(int matricula) {
 		int cont = 0;
-		for (Cliente i: clientes) {
+		for (Pessoa i: pessoas.getPessoas()) {
 			if(i.getMatricula() == matricula){
 				i.toString();
 				cont = 1;

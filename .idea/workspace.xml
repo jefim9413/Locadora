@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e5f44e2-fbf9-49db-9e59-456d7570462f" name="Default Changelist" comment="ok">
+    <list default="true" id="7e5f44e2-fbf9-49db-9e59-456d7570462f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locadora/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locadora/Operador_de_sistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Locadora/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Locadora/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Locadora/Operador_de_sistema.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Locadora/Operador_de_sistema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Locadora/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Locadora/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Repositorio/RepositorioPessoas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Repositorio/RepositorioPessoas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Repositorio/RepositorioProdutos.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Repositorio/RepositorioProdutos.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Produto/Cd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produto/Cd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,17 +250,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Principal" />
@@ -286,8 +279,21 @@
       <workItem from="1608943266230" duration="81000" />
       <workItem from="1608943643679" duration="109000" />
       <workItem from="1608943968314" duration="1136000" />
-      <workItem from="1608945684822" duration="5372000" />
+      <workItem from="1608945684822" duration="5735000" />
+      <workItem from="1608988589401" duration="4886000" />
+      <workItem from="1608999951996" duration="5449000" />
+      <workItem from="1609012151145" duration="1203000" />
+      <workItem from="1609036663420" duration="1466000" />
+      <workItem from="1609074007236" duration="907000" />
     </task>
+    <task id="LOCAL-00001" summary="ok">
+      <created>1609006223834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609006223834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

@@ -1,7 +1,7 @@
 package Produto;
 
 public class Cd extends Musica {
-   private boolean arranhado;
+    private boolean arranhado;
     private boolean duplo;
     
     public Cd(String codigo, String titulo, String genero, boolean locado, String autor, int numFaixas, boolean arranhado, boolean duplo) {

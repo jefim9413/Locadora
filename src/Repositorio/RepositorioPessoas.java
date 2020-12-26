@@ -6,14 +6,13 @@ import Produto.*;
 import java.util.ArrayList;
 
 public class RepositorioPessoas {
-	private ArrayList<Pessoa> pessoas;
+	private ArrayList<Pessoa> pessoas  =new ArrayList<>();
 
 	public RepositorioPessoas() {
-		pessoas = new ArrayList<>();
 	}
 
 	public void adicionar(Pessoa pessoa) {
-		pessoas.add(pessoa);
+		this.pessoas.add(pessoa);
 	}
 	public void remover(int matricula) {
 		for(Pessoa i : pessoas) {

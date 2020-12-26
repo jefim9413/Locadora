@@ -1,7 +1,7 @@
 package Locadora;
 
 public abstract class Pessoa {
-	protected String nome;
+	public String nome;
 	public int matricula;
 
 	public Pessoa(String nome, int matricula) {

@@ -3,9 +3,9 @@ package Locadora;
 public class Cliente extends Pessoa {
 		private String endereco;
 		private int idade;
-		private char sexo;
+		private String sexo;
 		
-		public Cliente(String endereco, int idade, char sexo, String nome, int matricula) {
+		public Cliente(String endereco, int idade, String sexo, String nome, int matricula) {
 			super(nome, matricula);
 			this.endereco = endereco;
 			this.idade = idade;
@@ -29,11 +29,11 @@ public class Cliente extends Pessoa {
 			this.idade = idade;
 		}
 		
-		public char getSexo() {
+		public String getSexo() {
 			return sexo;
 		}
 		
-		public void setSexo(char sexo) {
+		public void setSexo(String sexo) {
 			this.sexo = sexo;
 		}
 
