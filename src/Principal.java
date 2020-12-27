@@ -18,7 +18,7 @@ public class Principal {
 
         Gerente gerente = new Gerente("Jonas", 123, "aps", "123",produtos,pessoas);
         pessoas.adicionar(gerente);
-
+        pessoas.adicionar(gerente);
         String login;
         String senha;
 
@@ -64,7 +64,9 @@ public class Principal {
                                         nome = ler.nextLine();
                                         System.out.println("Matricular: ");
                                         matricula = Integer.parseInt(ler.nextLine());
-                                        ((Gerente) i).AddCliente(endereco,idade,sexo,nome,matricula);
+                                        Cliente cliente = new Cliente(endereco, idade,sexo,nome,matricula);
+                                        //1pessoas.adicionar(gerente);
+
                                         break;
                                     case 2:
                                         int aux = 0;
@@ -163,7 +165,9 @@ public class Principal {
                                         System.out.println("Senha: ");
                                         senha = ler.nextLine();
                                         ((Gerente) i).AddOperador(nome,matricula,login,senha);
-
+                                        break;
+                                    case 4:
+                                        ((Gerente) i).ListarCliente();
                                         break;
                                     default:
                                         System.out.println("Opção inválida !!");

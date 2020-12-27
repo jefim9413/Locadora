@@ -9,6 +9,7 @@ public class Gerente extends Funcionario{
 	RepositorioProdutos produtos;
 	RepositorioPessoas pessoas;
 
+
 	public Gerente(String nome, int matricula, String login, String senha, RepositorioProdutos repProdutos, RepositorioPessoas repPessoas ) {
 		super(nome, matricula, login, senha);
 		produtos = repProdutos;
@@ -33,7 +34,7 @@ public class Gerente extends Funcionario{
 		int cont = 0;
 		for (Pessoa i : pessoas.getPessoas()) {
 			if(i != null){
-				i.toString();
+				System.out.println(i);
 				cont = 1;
 			}
 		}
@@ -46,7 +47,7 @@ public class Gerente extends Funcionario{
 		int cont = 0;
 		for (Produto i :produtos.getProdutos()) {
 			if(i != null){
-				i.toString();
+				System.out.println(i);
 				cont = 1;
 			}
 		}
@@ -59,7 +60,7 @@ public class Gerente extends Funcionario{
 		int cont = 0;
 		for (Pessoa i :pessoas.getPessoas()) {
 			if(i instanceof Operador_de_sistema){
-				i.toString();
+				System.out.println(i);
 				cont = 1;
 			}
 		}

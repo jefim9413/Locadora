@@ -6,7 +6,7 @@ import Produto.*;
 import java.util.ArrayList;
 
 public class RepositorioPessoas {
-	private ArrayList<Pessoa> pessoas  =new ArrayList<>();
+	private ArrayList<Pessoa> pessoas = new ArrayList<>();
 
 	public RepositorioPessoas() {
 	}

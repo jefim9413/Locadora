@@ -13,7 +13,18 @@ public class Cliente extends Pessoa {
 			
 		}
 
-		public String getEndereco() {
+	@Override
+	public String toString() {
+		return "Cliente{" +
+				"endereco='" + endereco + '\'' +
+				", idade=" + idade +
+				", sexo='" + sexo + '\'' +
+				", nome='" + nome + '\'' +
+				", matricula=" + matricula +
+				'}';
+	}
+
+	public String getEndereco() {
 			return endereco;
 		}
 
@@ -37,14 +48,6 @@ public class Cliente extends Pessoa {
 			this.sexo = sexo;
 		}
 
-	@Override
-	public String toString() {
-		return "Cliente{" +
-				"endereco='" + endereco + '\'' +
-				", idade=" + idade +
-				", sexo=" + sexo +
-				'}';
-	}
 }
 
 
